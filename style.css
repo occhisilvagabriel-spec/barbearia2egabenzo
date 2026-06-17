@@ -1,0 +1,31 @@
+h1{
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(67, 228, 58);
+}
+h2{
+    color: blue;
+    text-align: center;
+}
+body{
+    background-image: url(https://i.makeagif.com/media/2-07-2017/q85pdG.gif)
+}
+body{
+    background-color: rgb(220, 240, 149);
+}
+img{
+    width: 100px;
+}
+footer{
+    background-color: chartreuse;
+}
+.imagem{
+    text-align: center;
+    background-color: blue;
+    margin: auto;
+    border-style: dotted;
+    border-radius: 50px;
+    border-bottom: 50px;
+    border-color: brown;
+}
