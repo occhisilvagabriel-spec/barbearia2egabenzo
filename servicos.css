@@ -1,5 +1,11 @@
 header{
-    background-color: blueviolet;
+    background-color: rgba(43, 55, 226, 0.945);
+    padding: 20px 0;
+}
+nav{
+    position: absolute;
+    top: 110px;
+    rigth: 0;
 }
 nav li {
     display: inline;
@@ -11,4 +17,9 @@ nav a{
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+.caixa{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
