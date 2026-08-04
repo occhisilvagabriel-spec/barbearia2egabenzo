@@ -1,11 +1,11 @@
 header{
-    background-color: rgba(43, 55, 226, 0.945);
+    background-color: rgba(145, 142, 142, 0.945);
     padding: 20px 0;
 }
 nav{
     position: absolute;
     top: 110px;
-    rigth: 0;
+    right: 0;
 }
 nav li {
     display: inline;
@@ -21,5 +21,26 @@ nav a{
 .caixa{
     position: relative;
     width: 940px;
+    height: 100px;
     margin: 0 auto;
+}
+h1 img{
+    width: 150px;
+}
+.servicos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.servicos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+.servicos img{
+    width: 200px;
 }
