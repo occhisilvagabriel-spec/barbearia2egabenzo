@@ -1,6 +1,6 @@
 header{
     background-color: rgba(145, 142, 142, 0.945);
-    padding: 20px 0;
+    padding: 10px 0;
 }
 nav{
     position: absolute;
@@ -9,7 +9,7 @@ nav{
 }
 nav li {
     display: inline;
-    margin: 0 0 0 15px
+    margin: 0 0 0 10px
 }
 nav a{
     text-transform: uppercase;
@@ -25,7 +25,7 @@ nav a{
     margin: 0 auto;
 }
 h1 img{
-    width: 150px;
+    width: 200px;
 }
 .servicos{
     width: 940px;
@@ -40,7 +40,23 @@ h1 img{
     margin: 1.5%;
     padding: 30px 0px;
     box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .servicos img{
-    width: 200px;
+    width: 210px;
+}
+
+.servicos h2 {
+    font-size: 30px;
+    font-weight:  bold;
+}
+
+.descricao{
+    font-size: 18px;
+}
+.preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
