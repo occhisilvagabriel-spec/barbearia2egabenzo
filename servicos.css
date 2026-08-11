@@ -1,5 +1,5 @@
 header{
-    background-color: rgba(145, 142, 142, 0.945);
+    background-color: gray;
     padding: 10px 0;
 }
 nav{
@@ -46,12 +46,10 @@ h1 img{
 .servicos img{
     width: 210px;
 }
-
 .servicos h2 {
     font-size: 30px;
     font-weight:  bold;
 }
-
 .descricao{
     font-size: 18px;
 }
@@ -59,4 +57,30 @@ h1 img{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+nav a:hover{
+    color:chocolate;
+    text-decoration: underline;
+}
+.servicos li:hover {
+    border-color:  chocolate;
+}
+.servicos li:active{
+    border-color: blue;
+}
+.servicos li:hover h2{
+    font-size: 34px;
+}
+footer{
+    text-align: center;
+    background-color: gray;
+    padding: 40px 0;
+}
+footer img{
+    width: 100px;
+}
+.copyright{
+    color:black;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
