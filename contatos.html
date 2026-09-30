@@ -33,38 +33,44 @@
 
             <label for="mensagem">Mensagem</label>
             <textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
-             <div>
+
+        <div>
+
                 <p>Como prefere o nosso contato ?</p>
                 <label for="radio-email">
                     <input type="radio " name="contato" value="email" id="radio-email">
+                    Email
+                </label>
+            
+                <label for="radio-telefone">
+                    <input type="radio " name="contato" value="email" id="radio-email">
+                    Telefone
                 </label>
 
-            
-                    <input type="radio " name="contato" value="email" id="radio-email"
-            
-                </label for="radio-telefone">
-                    <input type="radio " name="contato" value="telefone" id="radio-telefone">
-                </label for="radio-whatsapp">
-                    <input type="radio " name="contato" value="radio-whatsapp" id="radio-email">
-                </label>
-                <div>
-                    <p>qual o horario prefere ser atendido?</p>
+                <label for="radio-whatsapp"></label>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Whatsapp
+            </label>
+
+        </div>
+
+        <div>
+             <p>qual o horario prefere ser atendido?</p>
                      <select>
                         <option>manhã</option>
                         <option>tarde</option>
                         <option>noite</option>
-                     </select>>
-            
-                </div>
+
+                     </select>
+        </div>
+
                 <label class="checkbox">
                 <input type="checkbox">
                 Gostaria de receber nossas noviades por email?
                 </label>
              
             <input type="submit" value="Enviar formulário"  class="enviar">
-        </form>
-    </main>
-    <footer>
+            <footer>
         <img src="logo.png">
         <p class="copyright">&copy;copyright enzo e gabriel - 2026</p>
     </footer>
