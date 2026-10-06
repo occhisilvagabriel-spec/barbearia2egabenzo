@@ -127,35 +127,34 @@ form label, form p{
     transform: scale(1.2);
 
 }     
-
     @keyframes rotate {
         0%{
-            transform: rotate (0deg);
+            transform: rotate(0deg);
             border-style: solid;
-            border-color: 
+            border-color:blue
         }   
-        25%{
-            transform: rotate (0deg);
+        20%{
+            transform: rotate(10deg);
             border-style: solid;
-            border-color: blue
+            border-color: blue;
         }
         50%{
-
-            transform; rotate (0deg);
+            transform: rotate(0deg);
             border-style: solid;
-            border-color: blue
+            border-color: blue;
         }
         75%{
-            transform: rotate (0deg);
+            transform: rotate(-10deg);
             border-style: solid;
-            border-color: blue
+            border-color: blue;
         }
         100%{
-            transform: rotate (0deg);
+            transform: rotate(100000000000000000000000000000000000000000000000000000000000000000000000000000000000deg);
             border-style: solid;
-            border-color:blue 
+            border-color:blue;
         }
-    }       
+    }  
+         
 
 
            
